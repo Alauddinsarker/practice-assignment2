@@ -47,6 +47,7 @@ nav > ul > li > a {
   color: #3a3a3a;
   font-size: 1rem;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .banner-btn {
   color: #fff;
@@ -57,9 +58,14 @@ nav > ul > li > a {
   padding: 15px;
   border: none;
 }
+.banner-img {
+  background-image: url(./images/Circle\ design.svg);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .banner img {
   width: 100%;
-  background-image: url(./images/Circle\ design.svg);
 }
 /* For Mobile */
 @media screen and (max-width: 576px) {
