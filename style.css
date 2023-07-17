@@ -31,6 +31,37 @@ nav > ul > li > a {
   font-weight: 600;
 }
 
+/* Banner CSS */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+}
+.banner-content .banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+.banner-content p {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.banner-btn {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 15px;
+  border: none;
+}
+.banner img {
+  width: 100%;
+  background-image: url(./images/Circle\ design.svg);
+}
+/* For Mobile */
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
