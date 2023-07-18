@@ -48,8 +48,8 @@
           <img src="./images/main-camera.png" alt="" />
         </div>
       </section>
-      <section class="corporate-logo">
-        <ul>
+      <section class="corporate-logo-container">
+        <ul class="corporate-logo">
           <li>
             <a href=""><img src="./logos/Alibaba.svg" alt="" /></a>
           </li>
@@ -73,14 +73,14 @@
           </li>
         </ul>
       </section>
-      <section class="popular-collection">
-        <div>
-          <h2>Popular Collection</h2>
+      <section class="popular-collection-container">
+        <h2 class="popular-collection-title">Popular Collection</h2>
+        <div class="popular-collection">
           <div class="single-collection">
             <div>
               <img src="./images/tripod.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -90,7 +90,7 @@
             <div>
               <img src="./images/mic.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -100,7 +100,7 @@
             <div>
               <img src="./images/airpod.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -110,7 +110,7 @@
             <div>
               <img src="./images/drone.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -120,7 +120,7 @@
             <div>
               <img src="./images/lights.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -130,7 +130,7 @@
             <div>
               <img src="./images/setup.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -140,7 +140,7 @@
             <div>
               <img src="./images/single-light.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -150,7 +150,7 @@
             <div>
               <img src="./images/mic.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
@@ -160,49 +160,48 @@
             <div>
               <img src="./images/camera.png" alt="" />
             </div>
-            <div>
+            <div class="single-collection-details">
               <h2>Flex Tripod</h2>
               <h3>$50.48</h3>
               <p>Wordwide shifting available Buyers protection possible!</p>
             </div>
           </div>
         </div>
-        <a href=""
-          >See More <span><i class="fa-solid fa-arrow-right"></i></span
-        ></a>
+        <div class="see-more-btn">
+          <a href=""
+            >See More <span><i class="fa-solid fa-arrow-right"></i></span
+          ></a>
+        </div>
       </section>
-      <section classs="footer-top">
-        <div><img src="./images/gear.png" alt="" /></div>
-        <div>
-          <h2>Featured products at one place</h2>
-          <p>
+      <section class="footer-top-container">
+        <div class="footer-top-img">
+          <img src="./images/gear.png" alt="" />
+        </div>
+        <div class="footer-top-content">
+          <h2 class="footer-top-content-title">Featured products at one place</h2>
+          <p class="footer-top-content-text">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
           </p>
-          <button>
+          <button class="footer-top-content-btn">
             Preebook now <span><i class="fa-solid fa-arrow-right"></i></span>
           </button>
         </div>
       </section>
     </main>
-    <footer>
-      <h3>Influencer products</h3>
-      <p>Copyright © 2023 influencer products. All rights reserved</p>
-      <ul>
-        <li>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fa-brands fa-dribbble"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </li>
-      </ul>
+    <footer class="footer-container">
+      <h3 class="footer-title">Influencer products</h3>
+      <p class="footer-text">Copyright © 2023 influencer products.<br> All rights reserved</p>
+      <div class="footer-social-icon">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+        <a href=""><i class="fa-brands fa-dribbble"></i></a>
+
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
     </footer>
   </body>
 </html>
